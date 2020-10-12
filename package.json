@@ -1,0 +1,22 @@
+{
+  "name": "@flavioroso/form-loader",
+  "version": "1.0.0",
+  "description": "Uma lib simples em javascript para pegar os dados de um formulário sem envio do header pelo navegador, assim tirando a necessidade de ficar pegando cada campo manualmente",
+  "main": "form-loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioRoso/form-loader.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Flavio Roso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlavioRoso/form-loader/issues"
+  },
+  "homepage": "https://github.com/FlavioRoso/form-loader#readme"
+}

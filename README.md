@@ -8,7 +8,7 @@ Uma lib simples em javascript para pegar os dados de um formulário sem envio do
 
 ## Instalação
 
-    git clone https://github.com/flavioroso/form-loader.git
+    npm i form-loader --save
 
 
 ### Exemplo:

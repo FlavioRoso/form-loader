@@ -24,16 +24,16 @@ Uma lib simples em javascript para pegar os dados de um formulário sem envio do
     <!--Formulario de envio-->
     <form action="" id="form">
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome"><br>
+        <input type="text" name="nome" id="nome">
         
         <label for="nome">Sobrenome</label>
-        <input type="text" name="sobreNome" id="sobreNome"><br>
+        <input type="text" name="sobreNome" id="sobreNome">
         
         <label for="nome">idade</label>
-        <input type="text" name="idade" id="idade"><br>
+        <input type="text" name="idade" id="idade">
         
         <label for="nome">cpf</label>
-        <input type="text" name="cpf" id="cpf"><br>
+        <input type="text" name="cpf" id="cpf">
         
         <input type="submit" name="btn" id="btn" value="enviar">
 
@@ -59,4 +59,4 @@ Uma lib simples em javascript para pegar os dados de um formulário sem envio do
 ```
 
 ### Console
-    {nome: "Flavio ", sobreNome: "Roso", idade: "21", cpf: "999.999.999.99", btn: "enviar"}
+    {nome: "Flavio", sobreNome: "Roso", idade: "21", cpf: "999.999.999-99", btn: "enviar"}

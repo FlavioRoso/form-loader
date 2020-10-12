@@ -59,4 +59,10 @@ Uma lib simples em javascript para pegar os dados de um formulário sem envio do
 ```
 
 ### Console
-    {nome: "Flavio", sobreNome: "Roso", idade: "21", cpf: "999.999.999-99", btn: "enviar"}
+    {
+        nome: "Flavio", 
+        sobreNome: "Roso", 
+        idade: "21", 
+        cpf: "999.999.999-99", 
+        btn: "enviar"
+    }

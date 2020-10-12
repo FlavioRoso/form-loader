@@ -1,7 +1,7 @@
 # form-loader
 
 
-Uma lib simples em javascript para pegar os dados de um formulario sem envio do header pelo navegador, assim tirando a necessidade de ficar pegando cada campo manualmente
+Uma lib simples em javascript para pegar os dados de um formulário sem envio do header pelo navegador, assim tirando a necessidade de ficar pegando cada campo manualmente
 
 
 

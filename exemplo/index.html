@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    
+<form action="" id="form">
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome"><br>
+    
+    <label for="nome">Sobre Nome</label>
+    <input type="text" name="sobreNome" id="sobreNome"><br>
+    
+    <label for="nome">idade</label>
+    <input type="text" name="idade" id="idade"><br>
+    
+    <label for="nome">cpf</label>
+    <input type="text" name="cpf" id="cpf"><br>
+    
+    <input type="submit" name="btn" id="btn" value="enviar">
+  
+
+</form>
+
+</body>
+
+
+<script src="../js/form-loader.js"></script>
+<script>
+
+    formLoader.submit("form",function(dados){
+
+    console.log(dados);
+
+    });
+
+</script>
+</html>

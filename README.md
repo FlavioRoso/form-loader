@@ -26,13 +26,13 @@ Uma lib simples em javascript para pegar os dados de um formulário sem envio do
         <label for="nome">Nome</label>
         <input type="text" name="nome" id="nome">
         
-        <label for="nome">Sobrenome</label>
+        <label for="sobreNome">Sobrenome</label>
         <input type="text" name="sobreNome" id="sobreNome">
         
-        <label for="nome">idade</label>
+        <label for="idade">idade</label>
         <input type="text" name="idade" id="idade">
         
-        <label for="nome">cpf</label>
+        <label for="cpf">cpf</label>
         <input type="text" name="cpf" id="cpf">
         
         <input type="submit" name="btn" id="btn" value="enviar">

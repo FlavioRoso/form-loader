@@ -32,13 +32,7 @@ const formLoader = {
 
     },
 
-    isInputData: function(elem) {
 
-        
-
-        return 
-
-    },
 
     getInputsForm: function(form)  {
 

@@ -34,33 +34,6 @@ const formLoader = {
 
 
 
-    getInputsForm: function(form)  {
-
-        const node = form.childNodes;
-        let inputs = [];
-
-        const tags = [
-            "INPUT",
-            "SELECT"
-        ]
-
-        Array.prototype.map.call(node,function(elem){
-      
-            if(elem instanceof Element &&  tags.indexOf(elem.tagName) >= 0)
-            {
-                
-                inputs.push(elem);
-            }
-         
-            
-        });
-
-
-
-        return inputs;
-
-    },
-
   
 
     getInputData: function (form) {
@@ -87,9 +60,8 @@ const formLoader = {
             
         }
         
-        const nodeInputs = this.getInputsForm(form);
 
-        nodeInputs.forEach((elem) => {
+        Array.prototype.map.call(form.elements, (elem) => {
 
             
             if(typesData[elem.type] !== undefined)

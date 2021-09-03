@@ -7,7 +7,7 @@ const formLoader = {
 
         if( typeof(form) ===  "string" )
         {
-            form = document.getElementById(form);
+            form = document.querySelector(form);
         }
 
         
@@ -50,7 +50,7 @@ const formLoader = {
             },
             "checkbox": function(obj,elem){
 
-                if(obj[elem.name] == undefined)
+                if(obj[elem.name] == "")
                     obj[elem.name] = [];
 
                 if(elem.checked)
@@ -68,8 +68,7 @@ const formLoader = {
             {
                 typesData[elem.type](inputs,elem)
             }
-                
-            else
+            else if(elem.name != "")
             {
                 inputs[elem.name] = elem.value;
             }
